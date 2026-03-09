@@ -9,23 +9,23 @@ Desenvolver um sistema de irrigação automatizado utilizando *ESP32* para otimi
 O sistema é composto por dispositivos que monitoram o ambiente e executam ações físicas:
 
 * *Cérebro:* Microcontrolador ESP32 DevKit V4.
-* 
+  
 *Sensores:* * *DHT22:* Mede a temperatura e umidade do ar.
 
 
 * *Higrômetro (Potenciômetro):* Simula a umidade do solo.
-* 
+  
 *RTC DS3231:* Relógio de tempo real para precisão de horários.
 
 
 
 
 * *Atuadores e Interface:*
-* 
+  
 *Relé:* Controla o acionamento da bomba d'água.
 
 
-* 
+
 *LCD 16x2 I2C:* Exibição local de dados para o operador.
 
 
@@ -61,34 +61,34 @@ O projeto é "conectado", permitindo que o agricultor monitore tudo pelo celular
 
 #### *Telemetria (O que o sistema diz):*
 
-* 
+
 *Status do Sistema:* Informa se a bomba está "LIGADO" ou "PARADO".
 
 
-* 
+
 *Dados Ambientais:* Envio constante de temperatura e umidade do ar.
 
 
-* 
+
 *Gestão de Água:* Publicação do volume total consumido em litros.
 
 
-* 
+
 *Saúde do Dispositivo:* Envio do uptime (tempo ligado) para manutenção.
 
 
 
 #### *Comandos Remotos (O que você pode fazer):*
 
-* 
+
 *Manual ON/OFF:* Ligar (1) ou desligar (0) a bomba à distância.
 
 
-* 
+
 *Modo Auto:* Retornar ao controle inteligente (auto).
 
 
-* 
+
 *Reset:* Zerar o contador de litros acumulados (reset).
 
 
